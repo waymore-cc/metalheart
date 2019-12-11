@@ -2,32 +2,36 @@
   font-family: "OldSport";
   src: url("old_sport.ttf") format("truetype"); /* Safari, Android, iOS */
 }
+
 .tab-list {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #dfdfdf;
   padding-left: 0;
   margin: 0 0 2rem 0;
+  z-index: 20;
+  font-weight: bold;
 }
 
 .tab-list-item {
   display: inline-block;
   list-style: none;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
   padding: 0.5rem 0.75rem;
 }
 .tab-list-item:hover {
   display: inline-block;
   list-style: none;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
   padding: 0.5rem 0.75rem;
-  background-color: #ebe9e9;
+  border-width: 2px 2px 0 2px;
+  background-color: #dfdfdf;
 }
 .tab-list-active {
   background-color: white;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
+  border: solid #dfdfdf;
+  border-width: 2px 2px 0 2px;
   z-index: 10;
 }
-.eventDate h4 {
+.eventDate h3 {
   margin: 8px 0;
   font-weight: 400 !important;
 }
@@ -36,15 +40,34 @@
   border-radius: 5px;
   padding: 0.5rem;
   border: 1px solid #282828;
-  background-color: #fff;
+  background-color: #3373dc;
+  color: #fff;
+  font-weight: bold;
   box-shadow: 3px 3px#c0c0c0;
   transition: box-shadow 0.2s;
 }
 .eventButton:hover {
   border-radius: 5px;
   padding: 0.5rem;
+  background-color: #3373dc;
+  color: #fff;
+  font-weight: bold;
   border: 1px solid #282828;
-  background-color: #fff;
   box-shadow: none;
   transition: 0.2s;
+}
+
+.whoPlays {
+  display: flex;
+  width: 100%;
+}
+.logos {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.logos svg {
+  height: 60px;
+  margin: 1.2rem;
 }

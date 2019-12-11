@@ -6,6 +6,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Metalheart from "../images/metalheart.svg"
+import Winetu from "../images/winetu.svg"
+import Mudride from "../images/mudride.svg"
+import Madamme from "../images/madamme.svg"
 import Tabs from "../components/Tabs"
 
 const IndexPage = () => (
@@ -27,9 +30,9 @@ const IndexPage = () => (
         >
           <div className="eventDate">
             <h2>MH: Wracamy do gry</h2>
-            <h4>09.01.2020 r.</h4>
-            <h4>Start: 20:00</h4>
-            <h4>D.K. Luksus</h4>
+            <h3>09.01.2020 r.</h3>
+            <h3>Start: 20:00</h3>
+            <h3>D.K. Luksus</h3>
           </div>
           <div>
             <p>
@@ -56,13 +59,39 @@ const IndexPage = () => (
             <a
               href="https://www.facebook.com/events/547247089432560/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="eventButton"> Facebook Event</button>
             </a>
           </div>
         </div>
-        <div sx={{ padding: "2rem 0" }}>
+        <div sx={{ padding: "3rem 0" }}>
           <h2>Zagrają:</h2>
+          <div className="whoPlays">
+            <div className="logos">
+              <a
+                href="https://www.facebook.com/winetuniema/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Winetu />
+              </a>
+              <a
+                href="https://www.facebook.com/MudrideBand/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Mudride style={{ height: "40px" }} />
+              </a>
+              <a
+                href="https://www.facebook.com/MadammeBand/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Madamme />
+              </a>
+            </div>
+          </div>
         </div>
         <div sx={{ padding: "2rem 0" }}>
           <h2>Partnerzy:</h2>
@@ -91,7 +120,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div label="Kontakt">
+      <div label="Kontakt i współpraca">
         Nothing to see here, this tab is <em>extinct</em>!
       </div>
     </Tabs>

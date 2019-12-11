@@ -1,36 +1,43 @@
 import React from "react"
+import Krolismok from "../images/krolismok.svg"
 
 const Header = () => (
   <>
-    <div
-      style={{
-        display: "flex",
-        maxWidth: "1180px",
-        margin: "auto",
-        padding: "1rem 1rem",
-      }}
-    >
-      <div style={{ flex: "1 1 50%" }}>
-        <h3>Kontakt</h3>
-        <p>
-          Paweł Frankiewicz <br />
-          536711733 <br />
-          pawel.frankiewicz@krolismok.pl
-        </p>
-      </div>
-      <div style={{ flex: "1 1 50%" }}>
-        <h3>Fundacja Król i Smok</h3>
-        NIP: 8961536680 <br />
-        KRS: 0000496316 <br />
-        Nr konta: PKO BP 21 1020 5242 0000 2102 0324 1874
-        <br />
+    <div style={{ borderTop: "1px solid #c3c3c3", padding: "1rem 0 1rem 0" }}>
+      <div
+        style={{
+          display: "flex",
+          maxWidth: "1180px",
+          margin: "auto",
+          padding: "1rem 1rem",
+        }}
+      >
+        <div
+          style={{
+            flex: "1 1 25%",
+            display: "flex",
+          }}
+        >
+          <Krolismok style={{ height: "80px" }} />
+        </div>
+        <div style={{ flex: "1 1 50%" }}>
+          Nr konta: PKO BP 21 1020 5242 0000 2102 0324 1874 <br />
+          SWIFT{"("}BIC{")"}: BPKOPLPW <br />
+          IBAN: PL21 1020 5242 0000 2102 0324 1874
+        </div>
+
+        <div style={{ flex: "1 1 25%" }}>
+          NIP: 8961536680 <br />
+          KRS: 0000496316 <br />
+          REGON: 02234405300000
+        </div>
       </div>
     </div>
     <footer style={{ width: "100vw" }}>
       <div
         style={{
           margin: `0 auto`,
-          padding: `1.45rem 0`,
+          padding: `0.5rem 0`,
           display: "flex",
           borderTop: "1px solid #c3c3c3",
         }}

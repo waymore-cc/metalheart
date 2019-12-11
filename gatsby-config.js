@@ -12,7 +12,7 @@ module.exports = {
           {
             family: `Lato`,
             variants: [`400`, `700`],
-            subsets: [`latin`],
+            subsets: [`latin-ext`],
           },
         ],
       },
