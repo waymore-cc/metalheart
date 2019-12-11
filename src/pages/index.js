@@ -25,9 +25,9 @@ const IndexPage = () => (
     <Tabs>
       <div label="Wydarzenia">
         <div
-          style={{
+          sx={{
             display: "grid",
-            gridTemplateColumns: "1fr 2fr",
+            gridTemplateColumns: ["1fr", "1fr 2fr", "1fr 2fr"],
             gridGap: "2rem",
             padding: " ",
           }}
@@ -78,14 +78,14 @@ const IndexPage = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Winetu style={{ height: "50px" }} />
+                <Winetu sx={{ height: ["auto", "50px", "50px"] }} />
               </a>
               <a
                 href="https://www.facebook.com/MudrideBand/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Mudride style={{ height: "40px" }} />
+                <Mudride sx={{ height: ["auto", "40px", "40px"] }} />
               </a>
               <a
                 href="https://www.facebook.com/MadammeBand/"
@@ -135,9 +135,9 @@ const IndexPage = () => (
       </div>
       <div label="Metalheart">
         <div
-          style={{
+          sx={{
             display: "grid",
-            gridTemplateColumns: "1fr 2fr",
+            gridTemplateColumns: ["1fr", "1fr 2fr", "1fr 2fr"],
             gridGap: "2rem",
             padding: " ",
           }}
@@ -158,9 +158,9 @@ const IndexPage = () => (
       </div>
       <div label="Kontakt">
         <div
-          style={{
+          sx={{
             display: "grid",
-            gridTemplateColumns: "1fr 2fr",
+            gridTemplateColumns: ["1fr", "1fr 2fr", "1fr 2fr"],
             gridGap: "2rem",
             padding: " ",
           }}
@@ -174,15 +174,22 @@ const IndexPage = () => (
             <a href="mailto:pawel.frankiewicz@krolismok.pl">
               <p>pawel.frankiewicz@krolismok.pl</p>
             </a>
+            <p>
+              <br />
+              Jeśli chcesz dołączyć do projektu Metalheart, napisz do nas!
+              Zapraszamy do współpracy solistów, zespoły i tych, którzy chcą
+              wesprzeć nas w inny sposób – darczyńców, partnerów i
+              wolontariuszy.
+            </p>
           </div>
         </div>
       </div>
     </Tabs>
 
     <div
-      style={{
+      sx={{
         display: "grid",
-        gridTemplateColumns: "1fr 2fr",
+        gridTemplateColumns: ["1fr", "1fr 2fr", "1fr 2fr"],
         gridGap: "2rem",
       }}
     >

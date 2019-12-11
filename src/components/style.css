@@ -54,19 +54,67 @@
   box-shadow: none;
   transition: 0.2s;
 }
+@media (max-width: 575px) {
+  .whoPlays {
+    width: 100%;
+  }
+  .logos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .logos a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+  }
 
-.whoPlays {
-  display: flex;
-  width: 100%;
-}
-.logos {
-  display: flex;
-  align-items: center;
+  .logos svg {
+    width: 50%;
+    margin: 2rem auto;
+  }
 }
 
-.logos svg {
-  height: 60px;
-  margin: 1.2rem 2rem;
+@media (min-width: 576px) {
+  .whoPlays {
+    width: 100%;
+  }
+  .logos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .logos a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .logos svg {
+    width: 50%;
+    margin: 2rem auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .whoPlays {
+    display: flex;
+    width: 100%;
+  }
+  .logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logos svg {
+    height: 60px;
+    margin: 1.2rem 2rem;
+  }
 }
 .kontakt p {
   margin: 0 0 0.25rem 0;
