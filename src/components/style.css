@@ -38,9 +38,9 @@
 
 .eventButton {
   border-radius: 5px;
-  padding: 0.5rem;
-  border: 1px solid #282828;
+  padding: 0.5rem 1rem;
   background-color: #3373dc;
+  border: none;
   color: #fff;
   font-weight: bold;
   box-shadow: 3px 3px#c0c0c0;
@@ -48,11 +48,9 @@
 }
 .eventButton:hover {
   border-radius: 5px;
-  padding: 0.5rem;
   background-color: #3373dc;
   color: #fff;
   font-weight: bold;
-  border: 1px solid #282828;
   box-shadow: none;
   transition: 0.2s;
 }
@@ -70,4 +68,7 @@
 .logos svg {
   height: 60px;
   margin: 1.2rem;
+}
+.kontakt p {
+  margin: 0 0 0.25rem 0;
 }

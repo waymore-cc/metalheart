@@ -14,7 +14,7 @@ import Tabs from "../components/Tabs"
 const IndexPage = () => (
   <Layout>
     <SEO title="Metalheart" />
-    <div style={{ display: "flex", padding: "2rem 0 5rem 0" }}>
+    <div style={{ display: "flex", padding: "2rem 0 6rem 0" }}>
       <Metalheart sx={{ margin: "auto", width: ["80%", "60%", "40%"] }} />
     </div>
 
@@ -74,7 +74,7 @@ const IndexPage = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Winetu />
+                <Winetu style={{ height: "50px" }} />
               </a>
               <a
                 href="https://www.facebook.com/MudrideBand/"
@@ -120,8 +120,26 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div label="Kontakt i współpraca">
-        Nothing to see here, this tab is <em>extinct</em>!
+      <div label="Kontakt">
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1fr 2fr",
+            gridGap: "2rem",
+            padding: " ",
+          }}
+        >
+          <div>
+            <h2>Skontaktuj się z nami:</h2>
+          </div>
+          <div className="kontakt">
+            <p style={{ fontWeight: "bold" }}>Paweł Frankiewicz</p>
+            <p>+48 536 711 733</p>
+            <a href="mailto:pawel.frankiewicz@krolismok.pl">
+              <p>pawel.frankiewicz@krolismok.pl</p>
+            </a>
+          </div>
+        </div>
       </div>
     </Tabs>
 
