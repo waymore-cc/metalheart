@@ -14,9 +14,37 @@
   margin-bottom: -1px;
   padding: 0.5rem 0.75rem;
 }
-
+.tab-list-item:hover {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  background-color: #ebe9e9;
+}
 .tab-list-active {
   background-color: white;
   border: solid #ccc;
   border-width: 1px 1px 0 1px;
+  z-index: 10;
+}
+.eventDate h4 {
+  margin: 8px 0;
+  font-weight: 400 !important;
+}
+
+.eventButton {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: 1px solid #282828;
+  background-color: #fff;
+  box-shadow: 3px 3px#c0c0c0;
+  transition: box-shadow 0.2s;
+}
+.eventButton:hover {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: 1px solid #282828;
+  background-color: #fff;
+  box-shadow: none;
+  transition: 0.2s;
 }

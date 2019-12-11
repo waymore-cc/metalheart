@@ -12,10 +12,62 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Metalheart" />
     <div style={{ display: "flex", padding: "2rem 0 5rem 0" }}>
-      <Metalheart style={{ margin: "auto", width: "40%" }} />
+      <Metalheart sx={{ margin: "auto", width: ["80%", "60%", "40%"] }} />
     </div>
 
     <Tabs>
+      <div label="Wydarzenia">
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1fr 2fr",
+            gridGap: "2rem",
+            padding: " ",
+          }}
+        >
+          <div className="eventDate">
+            <h2>MH: Wracamy do gry</h2>
+            <h4>09.01.2020 r.</h4>
+            <h4>Start: 20:00</h4>
+            <h4>D.K. Luksus</h4>
+          </div>
+          <div>
+            <p>
+              Od początków istnienia tego projektu miłośnicy ciężkich brzmień
+              pomagali dzieciom z zaburzeniami neurologicznymi, często trudnymi
+              do zdiagnozowania i jeszcze trudniejszymi do leczenia. Wierzymy w
+              Was, dlatego teraz wracamy z podwójną siłą — będziemy działać
+              mocniej, głośniej i z jeszcze większą energią!
+            </p>
+            <p>
+              Dochód z wydarzenia zostanie przekazany na pomoc, leczenie i
+              rehabilitację podopiecznych fundacji „Król i Smok”. Dodatkowo
+              podczas najbliższej edycji postaramy się o pomoc dla jednego z
+              nas. 25-letni Maciej Raczkowski to miłośnik ciężkiego brzmienia i
+              bywalec poprzednich wydarzeń Metalheart. Nowotwór odebrał mu
+              władzę nad ciałem, a bez kosztownej rehabilitacji może już jej
+              nigdy nie odzyskać.
+            </p>
+            <p>
+              Mamy więc ogromną nadzieję, że po raz kolejny, wspólnie, będziemy
+              mogli narobić trochę hałasu i pokazać jak Metalowe Serca biją
+              wspólnie w imię najbardziej potrzebujących!
+            </p>
+            <a
+              href="https://www.facebook.com/events/547247089432560/"
+              target="_blank"
+            >
+              <button className="eventButton"> Facebook Event</button>
+            </a>
+          </div>
+        </div>
+        <div sx={{ padding: "2rem 0" }}>
+          <h2>Zagrają:</h2>
+        </div>
+        <div sx={{ padding: "2rem 0" }}>
+          <h2>Partnerzy:</h2>
+        </div>
+      </div>
       <div label="Metalheart">
         <div
           style={{
@@ -38,9 +90,6 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-      </div>
-      <div label="Wydarzenia">
-        After 'while, <em>Crocodile</em>!
       </div>
       <div label="Kontakt">
         Nothing to see here, this tab is <em>extinct</em>!

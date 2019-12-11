@@ -4,7 +4,9 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
+/** @jsx jsx */
+import { jsx } from "theme-ui"
+// eslint-disable-next-line
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -34,7 +36,9 @@ const Layout = ({ children }) => {
       <Styled.root>
         <ThemeProvider theme={theme}>
           <Header siteTitle={data.site.siteMetadata.title} />
-          <div style={{ height: "600px", marginBottom: "2rem" }}>
+          <div
+            sx={{ height: ["300px", "400px", "600px"], marginBottom: "2rem" }}
+          >
             <Hero />
           </div>
           <div
