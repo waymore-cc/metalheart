@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Wracamy do gry...`,
-    description: `Najlepsze charytatywne koncerty we Wrocławiu!`,
-    author: `@gatsbyjs`,
+    description: `Będzie głośno!`,
+    author: `Waymore CC`,
   },
   plugins: [
     {
