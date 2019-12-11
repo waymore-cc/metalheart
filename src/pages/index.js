@@ -9,6 +9,10 @@ import Metalheart from "../images/metalheart.svg"
 import Winetu from "../images/winetu.svg"
 import Mudride from "../images/mudride.svg"
 import Madamme from "../images/madamme.svg"
+import DKLuksus from "../images/dkluksus.svg"
+import Bard from "../images/s_bard.svg"
+import Lacerta from "../images/s_lacerta.svg"
+import Egmont from "../images/s_egmont.svg"
 import Tabs from "../components/Tabs"
 
 const IndexPage = () => (
@@ -95,6 +99,38 @@ const IndexPage = () => (
         </div>
         <div sx={{ padding: "2rem 0" }}>
           <h2>Partnerzy:</h2>
+          <div className="whoPlays">
+            <div className="logos">
+              <a
+                href="https://www.facebook.com/dkluksus/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <DKLuksus />
+              </a>
+              <a
+                href="https://www.facebook.com/pg/wydawnictwobard/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Bard />
+              </a>
+              <a
+                href="https://www.facebook.com/pg/LacertaPL/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Lacerta />
+              </a>
+              <a
+                href="https://www.facebook.com/KrainaPlanszowek/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Egmont />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div label="Metalheart">
