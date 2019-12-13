@@ -13,6 +13,10 @@ import DKLuksus from "../images/dkluksus.svg"
 import Bard from "../images/s_bard.svg"
 import Lacerta from "../images/s_lacerta.svg"
 import Egmont from "../images/s_egmont.svg"
+import Tuje from "../images/s_tuje.svg"
+import Waymore from "../images/s_waymore.svg"
+import Eska from "../images/s_eska.svg"
+import Luz from "../images/s_luz.svg"
 import Tabs from "../components/Tabs"
 
 const IndexPage = () => (
@@ -37,6 +41,7 @@ const IndexPage = () => (
             <h3>09.01.2020 r.</h3>
             <h3>Start: 20:00</h3>
             <h3>D.K. Luksus</h3>
+            <h3>Wejście: 15 zł</h3>
           </div>
           <div>
             <p>
@@ -94,12 +99,19 @@ const IndexPage = () => (
               >
                 <Madamme />
               </a>
+              <a
+                href="https://www.facebook.com/TuJe-101929171310120/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Tuje />
+              </a>
             </div>
           </div>
         </div>
         <div sx={{ padding: "2rem 0" }}>
           <h2>Partnerzy:</h2>
-          <div className="whoPlays">
+          <div className="whoPlays" sx={{ padding: "2rem 0" }}>
             <div className="logos">
               <a
                 href="https://www.facebook.com/dkluksus/"
@@ -108,6 +120,31 @@ const IndexPage = () => (
               >
                 <DKLuksus />
               </a>
+              <a
+                href="https://www.facebook.com/eskainfowroclaw/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Eska />
+              </a>
+              <a
+                href="http://radioluz.pwr.edu.pl/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Luz />
+              </a>
+              <a
+                href="https://www.facebook.com/waymore.cc/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Waymore />
+              </a>
+            </div>
+          </div>
+          <div className="whoPlays">
+            <div className="logos">
               <a
                 href="https://www.facebook.com/pg/wydawnictwobard/"
                 target="_blank"
