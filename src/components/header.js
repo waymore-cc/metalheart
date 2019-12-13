@@ -5,6 +5,7 @@ import PropTypes from "prop-types"
 // eslint-disable-next-line
 import React from "react"
 import Logo from "../images/logo.svg"
+import Facebook from "../images/s_facebook.svg"
 
 const Header = () => (
   <header
@@ -49,6 +50,12 @@ const Header = () => (
           Metalheart
         </h2>
       </div>
+      <a
+        href="https://www.facebook.com/metalheart.krolismok/"
+        sx={{ marginLeft: "auto", width: "1.5rem" }}
+      >
+        <Facebook />
+      </a>
     </div>
   </header>
 )
